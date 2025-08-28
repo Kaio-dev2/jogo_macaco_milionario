@@ -2,7 +2,7 @@ import random
 import time
 
 # Taxa de vitória fixa
-taxa_de_vitoria = 0.3  # 30% de chance de vitória
+taxa_de_vitoria = 0.25  # 25% de chance de vitória
 
 def dep_cre(wallet):
     """Função para depositar créditos na carteira (mínimo 5₢)"""
@@ -35,7 +35,7 @@ def escolher_aposta(wallet):
 def gerar_matriz_controlada(num_rodadas):
     """
     Gera as linhas com controle de sorte:
-    - 30% de chance de ter pelo menos 1 linha vencedora
+    - 25% de chance de ter pelo menos 1 linha vencedora
     """
     tem_vitoria = random.random() < taxa_de_vitoria
     matriz = []
@@ -78,13 +78,13 @@ def interface_animada(matriz):
     time.sleep(1)
 
     for i, linha in enumerate(matriz):
-        print(f"Rodada {i+1}: ", end="", flush=True)
+        print(f"Rodada {i+1}: ", end=" ", flush=True)
         time.sleep(0.5)
 
         for j, num in enumerate(linha):
             if j > 0:
                 print(" | ", end="", flush=True)
-            print("?", end="", flush=True)
+            print(" ", end=" ", flush=True)
             time.sleep(0.3)
             print("\b\b" + str(num), end="", flush=True)
             time.sleep(0.4)
