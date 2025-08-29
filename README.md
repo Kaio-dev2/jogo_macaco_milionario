@@ -25,6 +25,8 @@ Jogo simples de aposta estilo “raspadinha” em Python, onde o jogador deposit
 ---
 ![Fluxograma](https://github.com/Kaio-dev2/jogo_macaco_milionario/blob/main/Fluxograma.png)
 
+Grupo: Kaio Richard, Hariel Mohamed, Vitor Lucindo.
+
 ## Como usar
 
 1. **Clone o repositório:**
