@@ -95,4 +95,4 @@ Adicionar suporte a múltiplos jogadores ou modo online.
 
 Implementar sistema de histórico e estatísticas.
 
-![fluxograma](Fluxograma.png)
+![Fluxograma](Fluxograma.png)
