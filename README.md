@@ -23,6 +23,7 @@ Jogo simples de aposta estilo “raspadinha” em Python, onde o jogador deposit
 - Entrada segura e validação para valores e respostas do usuário.
 
 ---
+![Fluxograma](https://github.com/Kaio-dev2/jogo_macaco_milionario/blob/main/Fluxograma.png)
 
 ## Como usar
 
@@ -95,4 +96,4 @@ Adicionar suporte a múltiplos jogadores ou modo online.
 
 Implementar sistema de histórico e estatísticas.
 
-![Fluxograma](Fluxograma.png)
+![Fluxograma](https://github.com/Kaio-dev2/jogo_macaco_milionario/blob/main/Fluxograma.png)
